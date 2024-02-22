@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Displays "bad luck on 4 good luck on 8 and Best School else using a for loop.
+
+counter=1
+
+while [ $counter -le 10 ]
+do
+    if [ $counter -eq 4 ]; then
+        echo "bad luck"
+    elif [ $counter -eq 8 ]; then
+        echo "good luck"
+    else
+        echo "Best School"
+    fi
+
